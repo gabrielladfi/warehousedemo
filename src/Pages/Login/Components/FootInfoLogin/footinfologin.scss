@@ -1,0 +1,30 @@
+.foot-info-login {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #266ACB;
+    &__span {
+        font-weight: 700;
+    }
+    &__div {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        &__p {
+            font-size: 12px;
+            color: #000;
+
+        }
+        &__span {
+            font-weight: 600;
+        }
+    }
+}
